@@ -401,7 +401,7 @@ public class Employee_payroll {
 		closebutton.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
 		closebutton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-			
+			 System.exit(0);
 			}
 		});
 		closebutton.setFont(new Font("Tahoma", Font.PLAIN, 13));
